@@ -3,6 +3,10 @@
 [![Updates](https://img.shields.io/badge/Platform-%20iOS%20%7C%20OS%20X%20%7C%20Android%20%7C%20Windows%20%7C%20Linux%20-brightgreen.svg)](https://github.com/Tencent/behaviac/blob/master/history.txt)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/Tencent/behaviac/pulls)
 
+# Behaviac 3.6.39 版本克隆，解决了在 Windows 和 Linux 下 cmake 无法通过编译的问题。
+
+## 在根目录创建编译目录：mkdir cmake_binary && cd cmake_binary && cmake .. && make 即可通过编译
+
 ## [访问http://www.behaviac.com/获取文档，教程，API，FAQ，源码，下载等一切相关资料](http://www.behaviac.com/)
 
  - behaviac是游戏AI的开发框架组件，也是游戏原型的快速设计工具
